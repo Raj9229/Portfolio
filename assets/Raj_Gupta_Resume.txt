@@ -1,0 +1,65 @@
+RAJ GUPTA
+Web Developer & Cybersecurity Enthusiast
+Email: rajgupta807633@gmail.com
+GitHub: https://github.com/Raj9229
+LinkedIn: https://www.linkedin.com/in/rajgupta123
+
+PROFESSIONAL SUMMARY
+Passionate Web Developer and Cybersecurity Enthusiast with a strong foundation in building secure, scalable web applications. Expertise spans across full-stack development and cybersecurity, creating solutions that are both functional and secure.
+
+TECHNICAL SKILLS
+
+Web Development:
+• JavaScript, React, Tailwind CSS
+• FastAPI, SQLAlchemy
+• APIs, Full-Stack Development
+
+Cybersecurity:
+• Nmap, Burp Suite, Wireshark
+• Penetration Testing
+• Security Assessment & Auditing
+
+Data & Analysis:
+• Python, Data Analysis
+• MongoDB, Git
+
+PROFESSIONAL EXPERIENCE
+
+Web Development Intern | May 2025 – Present
+International Institute of SDGs & Public Policy
+• Developing responsive web applications focused on sustainable development goals
+• Collaborating with cross-functional teams to create user-friendly interfaces
+• Implementing best practices in web development
+• Technologies: React, JavaScript, CSS3, APIs
+
+Cybersecurity Intern | Mar 2024 – Aug 2024
+Cyberent Cube
+• Gained hands-on experience in penetration testing and vulnerability assessment
+• Worked with industry-standard security tools
+• Identified and mitigated security risks in web applications and network infrastructure
+• Technologies: Penetration Testing, Nmap, Burp Suite, Wireshark
+
+KEY PROJECTS
+
+Skywings - Full-stack flight booking application with JWT authentication and MongoDB integration. Features real-time booking, user management, and secure payment processing.
+
+Video Consultation App - Flask-based real-time video consultation platform with integrated chat functionality. Enables secure doctor-patient communications.
+
+AI Image Enhancer - React-based image enhancement tool powered by AI APIs. Features automatic image optimization and real-time preview.
+
+OTPify - Secure OTP-based authentication system with multi-factor verification implementing industry-standard security practices.
+
+CORE COMPETENCIES
+• Full-Stack Development
+• Cybersecurity & Penetration Testing
+• Team Collaboration & Agile Methodologies
+• Innovative Problem Solving
+• Continuous Learning & Adaptation
+
+ACHIEVEMENTS
+• 15+ Projects Completed
+• 2+ Years Experience
+• 100% Client Satisfaction
+• Committed to 24/7 Learning Mindset
+
+Contact: rajgupta807633@gmail.com
