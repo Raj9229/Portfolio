@@ -199,6 +199,7 @@ a {
     line-height: 1.1;
     opacity: 0;
     animation: fadeInUp 0.8s ease forwards 0.4s;
+    color:  hsl(0, 0%, 100%) ;
 }
 
 .name-highlight {
