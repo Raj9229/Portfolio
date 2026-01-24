@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj Gupta - Resume</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .name {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #2563eb;
+            margin-bottom: 10px;
+        }
+        .title {
+            font-size: 1.2rem;
+            color: #64748b;
+            margin-bottom: 15px;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .contact-info a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: #1e293b;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .experience-item {
+            margin-bottom: 20px;
+        }
+        .job-title {
+            font-weight: bold;
+            color: #2563eb;
+        }
+        .company {
+            color: #64748b;
+            font-style: italic;
+        }
+        .date {
+            color: #94a3b8;
+            font-size: 0.9rem;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .skill-category {
+            background: #f8fafc;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .skill-category h4 {
+            color: #2563eb;
+            margin-bottom: 10px;
+        }
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        @media print {
+            body { margin: 0; padding: 15px; }
+            .contact-info { flex-direction: column; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="name">RAJ GUPTA</div>
+        <div class="title">Web Developer & Cybersecurity Enthusiast</div>
+        <div class="contact-info">
+            <span>📧 rajgupta807633@gmail.com</span>
+            <span>🐙 github.com/Raj9229</span>
+            <span>💼 linkedin.com/in/rajgupta123</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">PROFESSIONAL SUMMARY</div>
+        <p>Passionate Web Developer and Cybersecurity Enthusiast with a strong foundation in building secure, scalable web applications. Expertise spans across full-stack development and cybersecurity, creating solutions that are both functional and secure.</p>
+    </div>
+
+    <div class="section">
+        <div class="section-title">TECHNICAL SKILLS</div>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h4>Web Development</h4>
+                <ul>
+                    <li>JavaScript, React</li>
+                    <li>Tailwind CSS</li>
+                    <li>FastAPI, SQLAlchemy</li>
+                    <li>APIs, Full-Stack Development</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4>Cybersecurity</h4>
+                <ul>
+                    <li>Nmap, Burp Suite, Wireshark</li>
+                    <li>Penetration Testing</li>
+                    <li>Security Assessment</li>
+                    <li>Vulnerability Analysis</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4>Data & Tools</h4>
+                <ul>
+                    <li>Python, Data Analysis</li>
+                    <li>MongoDB, Git</li>
+                    <li>Problem Solving</li>
+                    <li>Team Collaboration</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">PROFESSIONAL EXPERIENCE</div>
+        
+        <div class="experience-item">
+            <div class="job-title">Web Development Intern</div>
+            <div class="company">International Institute of SDGs & Public Policy</div>
+            <div class="date">May 2025 – Present</div>
+            <ul>
+                <li>Developing responsive web applications focused on sustainable development goals</li>
+                <li>Collaborating with cross-functional teams to create user-friendly interfaces</li>
+                <li>Implementing best practices in web development</li>
+                <li><strong>Technologies:</strong> React, JavaScript, CSS3, APIs</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="job-title">Cybersecurity Intern</div>
+            <div class="company">Cyberent Cube</div>
+            <div class="date">Mar 2024 – Aug 2024</div>
+            <ul>
+                <li>Gained hands-on experience in penetration testing and vulnerability assessment</li>
+                <li>Worked with industry-standard security tools</li>
+                <li>Identified and mitigated security risks in web applications and network infrastructure</li>
+                <li><strong>Technologies:</strong> Penetration Testing, Nmap, Burp Suite, Wireshark</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">KEY PROJECTS</div>
+        
+        <div class="experience-item">
+            <div class="job-title">Skywings</div>
+            <p>Full-stack flight booking application with JWT authentication and MongoDB integration. Features real-time booking, user management, and secure payment processing.</p>
+        </div>
+
+        <div class="experience-item">
+            <div class="job-title">Video Consultation App</div>
+            <p>Flask-based real-time video consultation platform with integrated chat functionality. Enables secure doctor-patient communications.</p>
+        </div>
+
+        <div class="experience-item">
+            <div class="job-title">AI Image Enhancer</div>
+            <p>React-based image enhancement tool powered by AI APIs. Features automatic image optimization and real-time preview.</p>
+        </div>
+
+        <div class="experience-item">
+            <div class="job-title">OTPify</div>
+            <p>Secure OTP-based authentication system with multi-factor verification implementing industry-standard security practices.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">ACHIEVEMENTS</div>
+        <div class="skills-grid">
+            <div>✅ 15+ Projects Completed</div>
+            <div>🎯 2+ Years Experience</div>
+            <div>⭐ 100% Client Satisfaction</div>
+            <div>📚 24/7 Learning Mindset</div>
+        </div>
+    </div>
+</body>
+</html>
