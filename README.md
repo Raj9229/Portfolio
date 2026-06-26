@@ -4,6 +4,8 @@ A modern, responsive, and performance-optimized portfolio website showcasing my 
 
 ## � **Live Demo**
 Visit the live website: [https://raj9229.github.io/portfolio](https://raj9229.github.io/Portfolio/)
+ [https://rajgupta.tech/](https://rajgupta.tech/)
+
 
 ## 📋 **Features**
 
