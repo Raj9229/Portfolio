@@ -3,7 +3,7 @@
 A modern, responsive, and performance-optimized portfolio website showcasing my skills as a Web Developer and Cybersecurity Enthusiast.
 
 ## � **Live Demo**
-Visit the live website: [https://raj9229.github.io/portfolio](https://raj9229.github.io/Portfolio/)
+Visit the live website: [https://raj9229.github.io/portfolio](https://raj9229.github.io/Portfolio/) &
  [https://rajgupta.tech/](https://rajgupta.tech/)
 
 
