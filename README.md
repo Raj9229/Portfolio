@@ -124,9 +124,4 @@ To customize for different users:
 ## 📞 Contact
 
 For questions about this portfolio template or customization:
-- Email: rajgupta807633@gmail.com
 - GitHub: https://github.com/Raj9229
-
----
-
-**Note**: This portfolio represents a professional web developer and cybersecurity enthusiast. All content is optimized for professional networking and job applications.
