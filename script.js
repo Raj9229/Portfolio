@@ -59,13 +59,13 @@ function showLoadingMessage() {
     loadingMsg.style.position = 'fixed';
     loadingMsg.style.top = '20px';
     loadingMsg.style.right = '20px';
-    loadingMsg.style.background = '#7C3AED';
+    loadingMsg.style.background = '#0891b2';
     loadingMsg.style.color = 'white';
     loadingMsg.style.padding = '10px 20px';
     loadingMsg.style.borderRadius = '8px';
     loadingMsg.style.zIndex = '9999';
     loadingMsg.style.fontSize = '14px';
-    loadingMsg.style.boxShadow = '0 4px 20px rgba(124, 58, 237, 0.3)';
+    loadingMsg.style.boxShadow = '0 4px 20px rgba(8, 145, 178, 0.3)';
     loadingMsg.textContent = 'Loading PDF library...';
     document.body.appendChild(loadingMsg);
 
@@ -186,7 +186,7 @@ async function generatePDF() {
 
     doc.setFontSize(14);
     doc.setTextColor(100, 116, 139); // Gray color
-    doc.text('Web Developer & Cybersecurity Enthusiast', 105, 40, { align: 'center' });
+    doc.text('Full Stack Developer | MERN, FastAPI, Security', 105, 40, { align: 'center' });
 
     // Contact Info
     doc.setFontSize(10);
@@ -208,7 +208,7 @@ async function generatePDF() {
 
     doc.setFontSize(10);
     doc.setTextColor(0, 0, 0);
-    const summaryText = "Passionate Web Developer and Cybersecurity Enthusiast with a strong foundation in building secure, scalable web applications. Expertise spans across full-stack development and cybersecurity, creating solutions that are both functional and secure.";
+    const summaryText = "Full Stack Developer skilled in MERN and Python ecosystems, focused on building secure, responsive products. Hands-on experience through multiple internships and open-source development.";
     const splitSummary = doc.splitTextToSize(summaryText, 170);
     doc.text(splitSummary, 20, yPosition);
     yPosition += splitSummary.length * 5 + 10;
@@ -221,11 +221,13 @@ async function generatePDF() {
 
     doc.setFontSize(11);
     doc.setTextColor(0, 0, 0);
-    doc.text('• Web Development: JavaScript, React, Tailwind CSS, FastAPI, SQLAlchemy, APIs', 20, yPosition);
+    doc.text('• Languages: JavaScript, Python, SQL, HTML5, CSS3', 20, yPosition);
     yPosition += 6;
-    doc.text('• Cybersecurity: Nmap, Burp Suite, Wireshark, Penetration Testing', 20, yPosition);
+    doc.text('• Frontend: React, Tailwind CSS, Bootstrap, Framer Motion', 20, yPosition);
     yPosition += 6;
-    doc.text('• Data & Tools: Python, Data Analysis, MongoDB, Git', 20, yPosition);
+    doc.text('• Backend: Node.js, Express.js, FastAPI, Flask, MongoDB, MySQL', 20, yPosition);
+    yPosition += 6;
+    doc.text('• Security & Tools: Nmap, Burp Suite, Penetration Testing, Git/GitHub', 20, yPosition);
     yPosition += 15;
 
     // Professional Experience
@@ -237,43 +239,43 @@ async function generatePDF() {
     // Experience 1
     doc.setFontSize(12);
     doc.setTextColor(37, 99, 235);
-    doc.text('Web Development Intern', 20, yPosition);
+    doc.text('Full Stack Developer Trainee', 20, yPosition);
     doc.setFontSize(10);
     doc.setTextColor(100, 116, 139);
-    doc.text('May 2025 – Present', 150, yPosition);
+    doc.text('Aug 2026 – Present', 150, yPosition);
     yPosition += 6;
 
     doc.setTextColor(0, 0, 0);
-    doc.text('International Institute of SDGs & Public Policy', 20, yPosition);
+    doc.text('ExcelR', 20, yPosition);
     yPosition += 6;
 
     doc.setFontSize(9);
-    doc.text('• Developing responsive web applications focused on sustainable development goals', 20, yPosition);
+    doc.text('• Developing responsive frontend modules and integrating backend REST APIs', 20, yPosition);
     yPosition += 4;
-    doc.text('• Collaborating with cross-functional teams to create user-friendly interfaces', 20, yPosition);
+    doc.text('• Strengthening practical full-stack workflows and delivery quality', 20, yPosition);
     yPosition += 4;
-    doc.text('• Implementing best practices in web development', 20, yPosition);
+    doc.text('• Collaborating with mentors and team members in production-like tasks', 20, yPosition);
     yPosition += 10;
 
     // Experience 2
     doc.setFontSize(12);
     doc.setTextColor(37, 99, 235);
-    doc.text('Cybersecurity Intern', 20, yPosition);
+    doc.text('MERN Stack Developer Intern', 20, yPosition);
     doc.setFontSize(10);
     doc.setTextColor(100, 116, 139);
-    doc.text('Mar 2024 – Aug 2024', 150, yPosition);
+    doc.text('Jul 2026 – Aug 2026', 150, yPosition);
     yPosition += 6;
 
     doc.setTextColor(0, 0, 0);
-    doc.text('Cyberent Cube', 20, yPosition);
+    doc.text('Kinetrexa Software Private Limited', 20, yPosition);
     yPosition += 6;
 
     doc.setFontSize(9);
-    doc.text('• Gained hands-on experience in penetration testing and vulnerability assessment', 20, yPosition);
+    doc.text('• Built and integrated frontend and backend modules across the MERN stack', 20, yPosition);
     yPosition += 4;
-    doc.text('• Worked with industry-standard security tools', 20, yPosition);
+    doc.text('• Collaborated on real-world development tasks and team workflows', 20, yPosition);
     yPosition += 4;
-    doc.text('• Identified and mitigated security risks in web applications', 20, yPosition);
+    doc.text('• Focused on quality, maintainability, and production-ready delivery', 20, yPosition);
     yPosition += 10;
 
     // Key Projects
@@ -287,27 +289,27 @@ async function generatePDF() {
 
     // Project 1
     doc.setTextColor(37, 99, 235);
-    doc.text('Skywings:', 20, yPosition);
+    doc.text('HealthSaathi:', 20, yPosition);
     doc.setTextColor(0, 0, 0);
-    const project1Text = "Full-stack flight booking application with JWT authentication and MongoDB integration.";
+    const project1Text = "Telemedicine platform with AI chatbot and fast API-driven workflows.";
     const splitProject1 = doc.splitTextToSize(project1Text, 140);
     doc.text(splitProject1, 35, yPosition);
     yPosition += splitProject1.length * 4 + 3;
 
     // Project 2
     doc.setTextColor(37, 99, 235);
-    doc.text('Video Consultation App:', 20, yPosition);
+    doc.text('StealthShare:', 20, yPosition);
     doc.setTextColor(0, 0, 0);
-    const project2Text = "Flask-based real-time video consultation platform with integrated chat.";
+    const project2Text = "Zero-knowledge file sharing with client-side AES encryption.";
     const splitProject2 = doc.splitTextToSize(project2Text, 120);
     doc.text(splitProject2, 55, yPosition);
     yPosition += splitProject2.length * 4 + 3;
 
     // Project 3
     doc.setTextColor(37, 99, 235);
-    doc.text('AI Image Enhancer:', 20, yPosition);
+    doc.text('randnamepy:', 20, yPosition);
     doc.setTextColor(0, 0, 0);
-    const project3Text = "React-based image enhancement tool powered by AI APIs.";
+    const project3Text = "Published zero-dependency Python package with 900+ PyPI downloads.";
     const splitProject3 = doc.splitTextToSize(project3Text, 130);
     doc.text(splitProject3, 50, yPosition);
     yPosition += splitProject3.length * 4 + 3;
@@ -329,7 +331,7 @@ async function generatePDF() {
 
     doc.setFontSize(10);
     doc.setTextColor(0, 0, 0);
-    doc.text('✓ 15+ Projects Completed    ✓ 2+ Years Experience    ✓ 100% Client Satisfaction', 20, yPosition);
+    doc.text('✓ 15+ Projects Completed    ✓ 5+ Roles/Internships    ✓ 900+ PyPI Downloads', 20, yPosition);
 
     // Footer
     doc.setFontSize(8);
@@ -655,7 +657,7 @@ document.head.appendChild(style);
 // Text Resume Fallback Function
 function createTextResumeFallback() {
     const resumeContent = `RAJ GUPTA
-Web Developer & Cybersecurity Enthusiast
+Full Stack Developer | MERN, FastAPI, Security
 
 CONTACT INFORMATION
 Email: rajgupta807633@gmail.com
@@ -663,50 +665,55 @@ GitHub: github.com/Raj9229
 LinkedIn: linkedin.com/in/rajgupta123
 
 PROFESSIONAL SUMMARY
-I'm a passionate Web Developer and Cybersecurity Enthusiast with a strong foundation in building secure, scalable web applications. My expertise spans across full-stack development and cybersecurity, allowing me to create solutions that are not only functional but also secure.
+Full Stack Developer with experience building secure, scalable applications using MERN and Python ecosystems. Strong internship exposure with practical team delivery and open-source contributions.
+
+EDUCATION
+B.Tech in Computer Science | Aug 2023 – Aug 2027
+J.C. Bose University of Science and Technology, YMCA
 
 TECHNICAL SKILLS
-• Web Development: JavaScript, React, Tailwind CSS, FastAPI, SQLAlchemy, APIs
-• Cybersecurity: Nmap, Burp Suite, Wireshark, Penetration Testing
-• Data & Analysis: Python, MongoDB, Git, Data Analysis
+• Languages: JavaScript, Python, SQL, HTML5, CSS3
+• Frontend: React, Tailwind CSS, Bootstrap, Framer Motion
+• Backend: Node.js, Express.js, FastAPI, Flask, MongoDB, MySQL
+• Security & Tools: Nmap, Burp Suite, Penetration Testing, Git/GitHub
 
 PROFESSIONAL EXPERIENCE
 
-Web Development Intern | May 2025 – Present
-International Institute of SDGs & Public Policy
-• Working on developing responsive web applications focused on sustainable development goals
-• Collaborating with cross-functional teams to create user-friendly interfaces
-• Implementing best practices in web development
+Full Stack Developer Trainee | Aug 2026 – Present
+ExcelR
+• Developing and integrating responsive frontend components with backend REST APIs
 
-Cybersecurity Intern | Mar 2024 – Aug 2024
-Cyberent Cube
-• Gained hands-on experience in penetration testing, vulnerability assessment, and security auditing
-• Worked with industry-standard tools to identify and mitigate security risks
-• Conducted security assessments for web applications and network infrastructure
+MERN Stack Developer Intern | Jul 2026 – Aug 2026
+Kinetrexa Software Private Limited
+• Built and integrated frontend and backend components across MongoDB, Express, React, and Node.js
+
+Internshala Student Partner | Sep 2025 – Oct 2025
+Internshala
+• Promoted internships and organized student engagement initiatives
 
 FEATURED PROJECTS
 
-Skywings
-Full-stack flight booking application with JWT authentication and MongoDB integration.
-Technologies: React, Node.js, MongoDB, JWT
+HealthSaathi
+Telemedicine platform with AI chatbot and fast API-driven architecture.
+Technologies: React 19, FastAPI, SQLite, Groq API
 
-Video Consultation App
-Flask-based real-time video consultation platform with integrated chat functionality.
-Technologies: Flask, WebRTC, Socket.IO, Python
+StealthShare
+Zero-knowledge file sharing platform with client-side AES encryption.
+Technologies: React 19, Node.js, Express, Web Crypto API
 
-AI Image Enhancer
-React-based image enhancement tool powered by AI APIs with real-time preview.
-Technologies: React, AI API, Canvas, CSS3
+randnamepy
+Published zero-dependency Python package for realistic test data generation.
+Technologies: Python, pytest, PyPI
 
 OTPify
 Secure OTP-based authentication system with multi-factor verification.
-Technologies: Node.js, Express, MongoDB, SMS API
+Technologies: Python, Flask, SQLAlchemy, SMTP
 
 ACHIEVEMENTS
 • 15+ Projects Completed
-• 2+ Years Experience
-• 100% Client Satisfaction
-• Continuous Learning Mindset
+• 5+ Internship/Trainee Roles
+• 900+ PyPI Downloads on randnamepy
+• Built and deployed full-stack applications across multiple domains
 
 STATUS
 Currently seeking full-time opportunities in Web Development and Cybersecurity.
