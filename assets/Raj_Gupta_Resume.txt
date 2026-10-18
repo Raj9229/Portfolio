@@ -1,65 +1,74 @@
 RAJ GUPTA
-Web Developer & Cybersecurity Enthusiast
+Full Stack Developer | MERN, FastAPI, Security
+
 Email: rajgupta807633@gmail.com
 GitHub: https://github.com/Raj9229
 LinkedIn: https://www.linkedin.com/in/rajgupta123
 
-PROFESSIONAL SUMMARY
-Passionate Web Developer and Cybersecurity Enthusiast with a strong foundation in building secure, scalable web applications. Expertise spans across full-stack development and cybersecurity, creating solutions that are both functional and secure.
+EDUCATION
+J.C. Bose University of Science and Technology, YMCA
+Bachelor of Technology (B.Tech) in Computer Science
+Aug 2023 – Aug 2027 | Haryana, India
+
+EXPERIENCE
+
+Full Stack Developer Trainee | Aug 2026 – Present
+ExcelR (Remote)
+• Developed and integrated responsive frontend components with backend REST APIs.
+
+MERN Stack Developer Intern | Jul 2026 – Aug 2026
+Kinetrexa Software Private Limited (Remote)
+• Developed and integrated frontend and backend components across the MERN stack.
+• Collaborated with the development team on real-world tasks following professional workflows.
+
+Internshala Student Partner | Sep 2025 – Oct 2025
+Internshala (Remote)
+• Promoted internship opportunities and skill-building programs to students.
+• Organized student engagement activities and served as a liaison with the student community.
+• Enhanced leadership, communication, and networking skills while guiding peers.
+
+Web Development Intern | May 2025 – Jul 2025
+International Institute of SDGs & Public Policy (Remote)
+• Developed responsive web applications focused on sustainable development goals.
+• Collaborated with cross-functional teams to deliver user-friendly, high-quality solutions.
+• Integrated RESTful APIs and third-party services to enhance functionality.
+
+Cybersecurity Intern | Mar 2024 – Apr 2025
+Cyberent Cube (Remote)
+• Conducted penetration testing on web applications and network infrastructure.
+• Performed vulnerability assessments and security audits with remediation recommendations.
+• Gained hands-on experience with Wireshark, Burp Suite, and Nmap.
+
+PROJECTS
+
+HealthSaathi | React 19, FastAPI, Python, SQLite, Tailwind CSS, Groq API
+• Built a full-stack telemedicine platform with 20+ React components and 8+ FastAPI endpoints.
+• Engineered an AI-powered medical chatbot and dynamic payment module with UPI QR code support.
+• Implemented JWT authentication, CORS middleware, and SMTP-based email notifications.
+
+randnamepy | Python, pytest, PyPI
+• Built and published a zero-dependency Python package for realistic names and placeholder test data.
+• Structured the package with modular components and pytest coverage, reaching 900+ downloads.
+
+StealthShare | React 19, Node.js, Express, Drizzle ORM, Web Crypto API
+• Built a zero-knowledge file sharing platform with client-side AES-256-GCM encryption.
+• Implemented self-destruct logic to atomically purge files and secure session-based auth.
+
+OTPfy | Python, Flask, SQLAlchemy, SMTP
+• Built secure OTP-based registration, login, and verification workflows.
+• Implemented email verification and session/token-based security controls.
 
 TECHNICAL SKILLS
-
-Web Development:
-• JavaScript, React, Tailwind CSS
-• FastAPI, SQLAlchemy
-• APIs, Full-Stack Development
-
-Cybersecurity:
-• Nmap, Burp Suite, Wireshark
-• Penetration Testing
-• Security Assessment & Auditing
-
-Data & Analysis:
-• Python, Data Analysis
-• MongoDB, Git
-
-PROFESSIONAL EXPERIENCE
-
-Web Development Intern | May 2025 – Present
-International Institute of SDGs & Public Policy
-• Developing responsive web applications focused on sustainable development goals
-• Collaborating with cross-functional teams to create user-friendly interfaces
-• Implementing best practices in web development
-• Technologies: React, JavaScript, CSS3, APIs
-
-Cybersecurity Intern | Mar 2024 – Aug 2024
-Cyberent Cube
-• Gained hands-on experience in penetration testing and vulnerability assessment
-• Worked with industry-standard security tools
-• Identified and mitigated security risks in web applications and network infrastructure
-• Technologies: Penetration Testing, Nmap, Burp Suite, Wireshark
-
-KEY PROJECTS
-
-Skywings - Full-stack flight booking application with JWT authentication and MongoDB integration. Features real-time booking, user management, and secure payment processing.
-
-Video Consultation App - Flask-based real-time video consultation platform with integrated chat functionality. Enables secure doctor-patient communications.
-
-AI Image Enhancer - React-based image enhancement tool powered by AI APIs. Features automatic image optimization and real-time preview.
-
-OTPify - Secure OTP-based authentication system with multi-factor verification implementing industry-standard security practices.
-
-CORE COMPETENCIES
-• Full-Stack Development
-• Cybersecurity & Penetration Testing
-• Team Collaboration & Agile Methodologies
-• Innovative Problem Solving
-• Continuous Learning & Adaptation
+Languages: HTML5, CSS3, JavaScript, Python, SQL
+Frontend: React.js, TailwindCSS, Bootstrap, Framer Motion, Recharts
+Backend: Flask, FastAPI, REST APIs, Node.js, Express.js, bcrypt, WebSocket, Multer, Joi
+Databases: MySQL, MongoDB
+Cybersecurity Tools: Kali Linux, Burp Suite, Nmap, Wireshark
+DevOps & Cloud: Git, GitHub, Heroku, Netlify, Vercel
+Data Science: NumPy, Pandas, Matplotlib
+Development Tools: Postman, Linux, VS Code, Cursor, Figma
+Open Source: Published Python package on PyPI (randnamepy)
 
 ACHIEVEMENTS
-• 15+ Projects Completed
-• 2+ Years Experience
-• 100% Client Satisfaction
-• Committed to 24/7 Learning Mindset
-
-Contact: rajgupta807633@gmail.com
+• Built and deployed 15+ full-stack web applications.
+• Published randnamepy on PyPI with 900+ downloads.
